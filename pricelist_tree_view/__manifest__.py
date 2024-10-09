@@ -10,6 +10,7 @@
         'views/res_config_settings_view.xml',
         'views/res_company_view.xml',
         'views/product_view.xml',
+        'views/product_report_label.xml',
     ],
     'qweb': [
     ],

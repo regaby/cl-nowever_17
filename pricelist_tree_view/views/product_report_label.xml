@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<odoo>
+
+    <template id="report_simple_label2x7" inherit_id="product.report_simple_label2x7">
+
+        <xpath expr="//strong[hasclass('o_label_price')]" position="replace">
+            <strong class="o_label_price" t-out="product.listprice_price"
+                                    t-options="{'widget': 'monetary', 'display_currency': pricelist.currency_id or product.currency_id, 'label_price': True}"/>
+        </xpath>
+
+    </template>
+
+</odoo>
+
